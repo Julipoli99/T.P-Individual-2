@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="/css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+   
+    <section class="form-registrer">
+        <h1>Registro</h1>
+    <form action="">
+        <label for="nombre-apellido"></label>
+        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido" class="controls" maxlength="12" required>
+
+        <label for="nombre-usuario"></label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" class="controls" required>
+
+        <label for="fecha"></label>
+        <input type="date" name="fecha" id="fecha" placeholder="" class="controls">
+
+        <label for="domicilio"></label>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="controls" required>
+
+        <label for="perfil-usuario">Comprador</label>
+        <input type="radio" name="perfil-usuario" value="Comprador">
+        <label for="perfil-usuario">Vendedor</label>
+        <input type="radio" name="perfil-usuario" value="Vendedor">
+
+        <div class="checkbox">
+        <label for="Interes" id="interes">Interés:</label>
+        <label for="Interes">Electro</label>
+        <input type="checkbox" name="Interes" value="Electro">
+
+        <label for="Interes">Moda</label>
+        <input type="checkbox" name="Interes" value="Moda">
+
+        <label for="Interes">Hogar</label>
+        <input type="checkbox" name="Interes" value="Hogar">
+
+        <label for="Interes">Juguetería</label>
+        <input type="checkbox" name="Interes" value="Juguetería">
+
+        <label for="Interes">Vida sana</label>
+        <input type="checkbox" name="Interes" value="Vida-sana">
+        </div>
+
+        <div class="imagen-contraseña">
+        <label for="Foto">Seleccionar una imagen para el perfil</label>
+        <input type="file" name="Foto" accept=".jpg">
+
+        <input type="password" name="Contraseña" placeholder="Contraseña" required>
+        <input type="password" name="Contraseña" placeholder="Confirmar contraseña" required>
+        </div>
+
+        <div class="boton">
+        <button type="submit" id="boton1"><a href="/">Enviar</a></button>
+        <button type="reset" id="boton2">Borrar</button>
+        </div>
+        <p>¿Ya tienes una cuenta? <a href="/login">Ingresa aquí!</a></p>
+    </form>
+    </section>
+</body>
+</html>

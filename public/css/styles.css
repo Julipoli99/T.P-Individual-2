@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header p{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.logo{
+    width: 20%;
+    height: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+
+.contenedor-boton{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;   
+}
+
+.boton{
+    position: relative;
+    bottom: 50px;
+    right: 250px;
+}
+
+
+.boton-barra button{
+    text-align: center;
+    background-color: #03264C;
+    color:white;
+    border-radius: 10%;
+    font-size: 40px;
+}
+
+.boton button{
+    width: 20px;
+    height: 20px;
+}
+
+.boton-barra{
+    text-align: center;
+}
+
+
+
+main{
+    text-align: center;
+    min-width: 90vw;
+    min-height: 90vh;
+    background-color: #ebebeb;
+    
+}
+
+#compra-cuotas{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 65px;
+}
+
+.iconos-lista1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+
+.iconos-lista1 p{
+    align-items: flex-end;
+    
+}
+
+.iconos-lista2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.home-banner{
+    width: 100%;
+}
+
+main h2{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#camion{
+    color: green;
+    border: solid 1px green;
+    border-radius: 100%;
+    padding: 5px;
+    position: relative;
+    top: 12px;
+    right: -80px;
+    
+}
+
+
+
+
+
+
+.cafetera{
+    display: inline-block;
+    
+    width: 220px;
+    margin: auto;
+    background-color: white;
+    border-top:#ebebeb 4px solid ;
+    
+}
+.contenedor-cafetera{
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    height: 100px;
+    
+    
+    
+}
+
+
+.tv{
+    display: inline-block;
+    
+    width: 220px;
+    margin: auto;
+    background-color: white;
+    border-top:#ebebeb 1px solid ;
+    
+}
+
+.contenedor-tv{
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+    
+}
+
+.galaxy-s10{
+    display: inline-block;
+    
+    width: 220px;;
+    margin: auto;
+    background-color: white;
+    border-top:#ebebeb 1px solid ;
+}
+
+.contenedor-s10{
+    border-top: solid 1px #ebebeb;
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+}
+
+.macbook{
+    display: inline-block;
+    
+    width: 220px;
+    margin: auto;
+    background: white;
+    border-top:#ebebeb 1px solid ;
+}
+
+.contenedor-macbook{
+    border-top: solid 1px #ebebeb;
+    background: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100px;
+}
+
+
+#content-visita{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+#content-visita img{
+    width: 100%;
+}
+
+.cafetera, .tv, .macbook, .galaxy-s10 {
+    box-shadow: 2px 4px 15px 0 black;
+}
+
+#content-ofertas{
+    display: flex;
+    flex-direction: row;
+}
+
+#content-ofertas img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.precio{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 40px;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+    width: 100%;
+    
+}
+.descuento{
+    font-size: 16px;
+    color: green;
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    width: 100%;
+    
+}
+.producto{
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.producto:hover{
+    opacity: 1;
+}
+
+.fondo-gris{
+    background-color: #ebebeb;
+}
+
+section img{
+    width: 200px;
+    
+}
+
+
+
+
+
+
+
+
+footer section{
+    text-align: center;
+}
+
+.tarjeta-icono i{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    
+    
+}
+.regalo-icono i{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    
+}
+
+.seguridad-icono i{
+    color: blue;
+    font-size: 2em;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    
+}
+
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+
+#caja-footer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#copyright{
+    margin-top: 15px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+
+
+
+@media (min-width: 360px) AND (max-width:780px){
+    body{
+        box-shadow: 0px 0px 15px rgb(100, 100, 100);
+    }
+
+    .boton-barra{
+      visibility: hidden;
+    }
+
+    .logo img{
+        width:150px;
+    }
+
+    .descuento{
+        position: relative;
+        top: -32px;
+        left: 10px;
+    }
+    #camion{
+        position: relative;
+        right: -30px;
+    }
+}
+
+@media (max-width: 359px){
+    header nav{
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 380px){
+    .boton-barra button{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*----Formulario Registro----*/
+
+.registro{
+    background-color: red;
+}
+
