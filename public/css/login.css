@@ -52,3 +52,54 @@ button:hover{
     background-color: #02a;
     color: white;
 }
+
+/* FOOTER*/
+
+footer section{
+    text-align: center;
+}
+
+.tarjeta-icono i{
+    color: blue;
+    font-size: 2em;
+    
+    
+    
+}
+.regalo-icono i{
+    color: blue;
+    font-size: 2em;
+    
+    
+}
+
+.seguridad-icono i{
+    color: blue;
+    font-size: 2em;
+    
+    
+}
+
+
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+
+#caja-footer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#copyright{
+    
+    text-align: start;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: white;
+}

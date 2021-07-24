@@ -1,0 +1,29 @@
+<%-include("partials/head.ejs")%>
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/login.css">
+<link rel="stylesheet" href="/css/registro.css">
+<title>Login</title>
+
+<%-include("partials/header.ejs")%>
+
+
+
+<body>
+    
+    <img src="/img/img-home-banner.jpg" alt="" class="home-banner">
+
+    <section class="form-login">
+        <h1>Iniciar sesión</h1>
+        <form action="">
+            <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario" class="controls">
+            <input type="password" name="password" id="password" placeholder="Contraseña" class="controls">
+            <button type="submit">Ingresá</button>
+            <p>¿No tienes una cuenta? <a href="/users/registro">Registrate!</a></p>
+            
+        </form>
+    </section>
+
+<%-include("partials/footer.ejs")%>
+    
+</body>
+</html>

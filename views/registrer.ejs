@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <link rel="stylesheet" href="/css/registro.css">
-    <title>Registro</title>
-</head>
+<%-include("partials/head.ejs")%>
+<%-include("partials/header.ejs")%>
+<title>Registro</title>
+
+<link rel="stylesheet" href="/css/registro.css">
+
+<link rel="stylesheet" href="/css/login.css">
+
+<link rel="stylesheet" href="/css/styles.css">
+
 <body>
    
+    <img src="/img/img-home-banner.jpg" alt="" class="home-banner">
+
     <section class="form-registrer">
         <h1>Registro</h1>
     <form action="">
@@ -55,13 +57,16 @@
         <input type="password" name="Contraseña" placeholder="Contraseña" required>
         <input type="password" name="Contraseña" placeholder="Confirmar contraseña" required>
         </div>
-
-        <div class="boton">
-        <button type="submit" id="boton1"><a href="/">Enviar</a></button>
+        
+        <br>
+        <div id="boton">
+        <button type="submit" id="boton1"><a href="/">Enviar</a></button><br>
         <button type="reset" id="boton2">Borrar</button>
         </div>
-        <p>¿Ya tienes una cuenta? <a href="/login">Ingresa aquí!</a></p>
+        <p>¿Ya tienes una cuenta? <a href="/users/">Ingresa aquí!</a></p>
     </form>
     </section>
+
+    <%-include("partials/footer.ejs")%>
 </body>
 </html>
