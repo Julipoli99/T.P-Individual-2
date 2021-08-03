@@ -5,11 +5,7 @@ const app = express();
 const mainRouter = require ("./src/routes/mainRouter");
 const userRouter = require ("./src/routes/userRouter")
 
-/*
-app.listen(3000, () => {
-    console.log("Servidor corriendo en el puerto 3000");
-})
-*/
+
 
 
 /*app.get("/login", (req, res) =>{
@@ -28,6 +24,12 @@ app.listen(process.env.PORT || 3000, function() {
 })
 
 app.set("view engine", "ejs");
+
+app.use(express.urlencoded({extended: false}));
+app.use(express.json());
+
+const methodOverride = require("method-override");
+app.use(methodOverride("_method"));
 
 
 // Rutas Globales:

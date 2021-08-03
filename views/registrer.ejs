@@ -14,12 +14,13 @@
 
     <section class="form-registrer">
         <h1>Registro</h1>
-    <form action="">
+
+    <form action="/users/registro" method="POST">
         <label for="nombre-apellido"></label>
-        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Nombre y apellido" class="controls" maxlength="12" required>
+        <input type="text" name="nombreApellido" id="nombre-apellido" placeholder="Nombre y apellido" class="controls" maxlength="12" required>
 
         <label for="nombre-usuario"></label>
-        <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" class="controls" required>
+        <input type="text" name="nombreUsuario" id="nombre-usuario" placeholder="Nombre de usuario" class="controls" required>
 
         <label for="fecha"></label>
         <input type="date" name="fecha" id="fecha" placeholder="" class="controls">
@@ -28,9 +29,9 @@
         <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio" class="controls" required>
 
         <label for="perfil-usuario">Comprador</label>
-        <input type="radio" name="perfil-usuario" value="Comprador">
+        <input type="radio" name="perfilUsuario" value="Comprador">
         <label for="perfil-usuario">Vendedor</label>
-        <input type="radio" name="perfil-usuario" value="Vendedor">
+        <input type="radio" name="perfilUsuario" value="Vendedor">
 
         <div class="checkbox">
         <label for="Interes" id="interes">Interés:</label>
@@ -60,7 +61,7 @@
         
         <br>
         <div id="boton">
-        <button type="submit" id="boton1"><a href="/">Enviar</a></button><br>
+        <button type="submit" id="boton1">Enviar</button><br>
         <button type="reset" id="boton2">Borrar</button>
         </div>
         <p>¿Ya tienes una cuenta? <a href="/users/">Ingresa aquí!</a></p>

@@ -7,6 +7,10 @@ usersRouter.get("/", controladorUser.login);
 
 usersRouter.get("/registro", controladorUser.register);
 
+usersRouter.post("/registro", controladorUser.create);
+
+usersRouter.get("/registro/registroExitoso", controladorUser.success)
+
 
 
 

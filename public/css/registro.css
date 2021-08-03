@@ -115,7 +115,16 @@ footer{
 }
 
 
+.volver-inicio {
+    text-align: center;
+    margin-top: 30px;
+}
 
+.volver-inicio button {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
 
 
 
