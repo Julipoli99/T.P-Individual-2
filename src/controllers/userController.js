@@ -21,6 +21,21 @@ const controladorUser = {
 
     success: (req, res) => {
         res.render("RegisterSucceded")
+    },
+
+    edit: (req, res) => {
+        let idUser = req.params.idUser;
+
+        let users = [
+            {id: 1, name: "Julián"},
+            {id: 2, name: "Agustín"},
+            {id: 3, name: "Tomás"},
+            {id: 4, name: "Nicolás"}
+        ]
+
+        let userToEdit = users[idUser]
+
+        res.render("UserEdit", {userToEdit: userToEdit})
     }
 
     
