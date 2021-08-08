@@ -6,7 +6,8 @@
    
     <h1>Editar usuario</h1>
 
-    <form action="/users/edit?_method=PUT" method="POST">
+    <form action="/users/edit?_method=PUT" method="POST" enctype="multipart/form-data">
+        
         <label for="nombre-apellido"></label>
         <input type="text" name="nombreApellido" id="nombre-apellido" placeholder="Nombre y apellido" class="controls" maxlength="20" required>
 
